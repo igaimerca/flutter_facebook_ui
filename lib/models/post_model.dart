@@ -9,7 +9,7 @@ class Post {
   final int comments;
   final int shares;
 
-  const Post({
+  Post({
     required this.user,
     required this.caption,
     required this.timeAgo,
